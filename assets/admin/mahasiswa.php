@@ -1,8 +1,10 @@
 <?php
 require_once "./config.php";
-$keyword=$_POST['keyword'];
-$category=$_POST['category'];
+$keyword = isset($_POST['keyword']) ? $_POST['keyword'] : '';
+$category = isset($_POST['category']) ? $_POST['category'] : '';
+
 if(empty($keyword)){
+    // ...
   $n=0;
   $data=$konek->query("SELECT * FROM mhs order by nim limit 5");
 }else{
