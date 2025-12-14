@@ -23,7 +23,7 @@ if(isset($_POST['simpan'])){
 
         $waktu = date("Y-m-d H:i:s");
         $sql = "insert into mhs set nim='$nim',nama='$nama',gender='$jk',
-        alamat='$alamat',prodi='$prodi',waktu='$waktu'";
+        address='$alamat',prodi='$prodi',waktu='$waktu'";
         $data = $konek->query($sql);
         
         if($data){
