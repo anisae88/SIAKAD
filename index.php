@@ -387,6 +387,12 @@ if (!isset($_SESSION['user'])) {
                   <p>Tambah Mahasiswa</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="./?p=add_dosen" class="nav-link">
+                  <i class="nav-icon bi bi-circle-fill"></i>
+                  <p>Tambah Dosen</p>
+                </a>
+              </li>
             </ul>
             <!--end::Sidebar Menu-->
           </nav>
