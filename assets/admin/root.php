@@ -17,14 +17,26 @@ switch($p){
     case 'add_mahasiswa':
         require_once "add_mahasiswa.php";
         break;
+    case 'add_dosen':
+        require_once "add_dosen.php";
+        break;
     case 'detail_mahasiswa':
         require_once "detail_mahasiswa.php";
+        break;
+    case 'detail_dosen':
+        require_once "detail_dosen.php";
         break;
     case 'edit_mahasiswa':
         require_once "edit_mahasiswa.php";
         break;
+    case 'edit_dosen':
+        require_once "edit_dosen.php";
+        break;
     case 'hapus_mahasiswa':
         require_once "hapus_mahasiswa.php";
+        break;
+    case 'hapus_dosen':
+        require_once "hapus_dosen.php";
         break;
     default:
         require_once "dasboard.php";
